@@ -145,7 +145,7 @@ body {
     color: var(--color-white);
 }
 .title .happy span, .title .birthday span{
-    transform: translateY(75px);
+    transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
     animation: txtTranslateY .5s var(--t) forwards;
