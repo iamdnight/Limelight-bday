@@ -126,7 +126,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: "Titan One", sans-serif;
-    font-size: 3rem;
+    font-size: 6rem;
     flex-direction: column;
     perspective: 1000px;
 }
@@ -145,7 +145,7 @@ body {
     color: var(--color-white);
 }
 .title .happy span, .title .birthday span{
-    transform: translateY(50px);
+    transform: translateY(150px);
     opacity: 0;
     visibility: hidden;
     animation: txtTranslateY .5s var(--t) forwards;
@@ -252,8 +252,8 @@ body {
 }
 .content .right .image{
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
